@@ -32,5 +32,3 @@ mainAnimation
   targets: '.ear',
   right: '-17vw'
 },'-=600');
-
-document.querySelector('.pause').onclick = mainAnimation.play;

@@ -14,6 +14,7 @@
   top: 0;
   left: 0;
   overflow: hidden;
+  z-index: 0;
 }
 .main .animation-container .singer {
   position: absolute;
@@ -75,5 +76,31 @@
   }
   .main .bttm-part .bttn-container .pause {
     margin-bottom: 0.8vw;
+  }
+  .main .animation-container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  .main .animation-container .singer {
+    height: 75vh;
+    left: 10vw;
+    top: 100vh;
+  }
+  .main .animation-container .voice {
+    position: absolute;
+    height: -36vh;
+    left: 0vw;
+    top: -100vh;
+    transform: scaleX(3);
+  }
+  .main .animation-container .ear {
+    position: absolute;
+    height: -75.9vh;
+    right: 0vw;
+    top: 100vh;
   }
 }
