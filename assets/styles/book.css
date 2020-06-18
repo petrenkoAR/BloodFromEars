@@ -47,3 +47,25 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (min-width: 1024px){
+  .main .cntr-part {
+    bottom: 2.5vw;
+    left: 2.5vw;
+    width: 23vw;
+  }
+  .main .cntr-part p {
+    font-size: 1.5vw;
+    margin-bottom: 0.6vw;
+  }
+  .main .bttm-part {
+    width: 62.9vw;
+    right: 2.5vw;
+    margin-top: 0;
+  }
+  .main .bttm-part div {
+    width: 31vw;
+    height: 43.9vw;
+    margin-bottom: 4.4vw;
+    right: 2.5vw;
+  }
+}

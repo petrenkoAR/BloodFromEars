@@ -61,3 +61,29 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (min-width: 1024px){
+  .main .cntr-part {
+    bottom: 2.5vw;
+    left: 2.5vw;
+    width: 23vw;
+  }
+  .main .cntr-part p {
+    font-size: 2.3vw;
+    margin-bottom: 0.6vw;
+  }
+  .main .bttm-part {
+    width: 73vw;
+    margin-top: 9.5vw;
+    right: 2.5vw;
+  }
+  .main .bttm-part div {
+    width: 22.9vw;
+    height: 34.6vw;
+    margin-bottom: 1vw;
+    display: inline-block;
+    margin-left: 1vw;
+  }
+  .main .bttm-part div:nth-last-of-type(3) {
+    margin-right: 0;
+  }
+}

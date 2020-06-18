@@ -7,16 +7,33 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.main .bottom-part .info-container {
+.main .bttm-part .info-container {
   margin-bottom: 5.7vw;
 }
-.main .bottom-part .info-container:nth-of-type(3) {
+.main .bttm-part .info-container:nth-of-type(3) {
   margin-bottom: 0;
 }
-.main .bottom-part .info-container p:nth-of-type(odd) {
+.main .bttm-part .info-container p:nth-of-type(odd) {
   font-size: 5.6vw;
-  margin-bottom: 1vw; 
+  margin-bottom: 1vw;
 }
-.main .bottom-part .info-container p:nth-of-type(even) {
+.main .bttm-part .info-container p:nth-of-type(even) {
   font-size: 3.3vw;
+}
+@media (min-width: 1024px){
+  .bttm-part {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main .bttm-part .info-container {
+    margin-bottom: 0;
+  }
+  .main .bttm-part .info-container p:nth-of-type(odd) {
+    font-size: 2.3vw;
+    margin-bottom: 1vw;
+  }
+  .main .bttm-part .info-container p:nth-of-type(even) {
+    font-size: 1.5vw;
+  }
 }

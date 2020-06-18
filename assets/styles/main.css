@@ -33,3 +33,22 @@
   line-height: 89.2%;
   font-size: 3.3vw;
 }
+
+@media (min-width: 1024px){
+  .main {
+    padding: 2.5vw;
+  }
+  .main .top-part {
+    width: 95vw;
+  }
+  .main .top-part h1 {
+    font-size: 3.75vw;
+  }
+  .main .top-part .bttn-menu {
+    width: 5vw;
+  }
+  .main .text {
+    width: 34.4vw;
+    font-size: 1.5vw;
+  }
+}

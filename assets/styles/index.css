@@ -33,3 +33,21 @@
 .main .bttm-part .bttn-container .pause {
   margin-bottom: 2.2vw;
 }
+
+@media (min-width: 1024px){
+  .main .bttm-part {
+    width: 95vw;
+  }
+  .main .bttm-part .bttn-container {
+    bottom: 2.5vw;
+    right: 2.5vw;
+  }
+  .main .bttm-part .bttn-container div {
+    width: 15vw;
+    height: 2.5vw;
+    font-size: 1.5vw;
+  }
+  .main .bttm-part .bttn-container .pause {
+    margin-bottom: 0.8vw;
+  }
+}

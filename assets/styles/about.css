@@ -53,3 +53,34 @@
   height: 111vw;
   position: absolute;
 }
+@media (min-width: 1024px){
+  .main .cntr-part {
+    bottom: 2.5vw;
+    left: 2.5vw;
+  }
+  .main .cntr-part a {
+    font-size: 2.3vw;
+    margin-bottom: 0.8vw;
+  }
+  .main .text {
+    width: 54.4vw;
+    bottom: 2.5vw;
+    right: 2.5vw;
+  }
+  .main .bttm-part {
+    width: 63vw;
+    height: 45vw;
+    right: 2.5vw;
+    bottom: 2.5vw;
+  }
+  .main .first {
+    background: url('../img/w-poster-1.png');
+  }
+  .main .second {
+    background: url('../img/w-poster-2.png');
+  }
+  .main .bttm-part a {
+    width: 63vw;
+    height: 45vw;
+  }
+}

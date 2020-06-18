@@ -28,3 +28,16 @@
 .main .cntr-part a:nth-of-type(5){
   margin-bottom: 0vw;
 }
+
+@media (min-width: 1024px){
+  .main .top-part .bttn-close {
+    width: 3.8vw;
+    height: 3.8vw;
+    right: 2.5vw;
+    top: 2.5vw;
+  }
+  .main .cntr-part a {
+    font-size: 3.3vw;
+    margin-bottom: 2.5vw;
+  }
+}
