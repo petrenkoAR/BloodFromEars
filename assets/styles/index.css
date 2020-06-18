@@ -7,32 +7,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.main .animation-container {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-}
-.main .animation-container .singer {
-  position: absolute;
-  height: 75vh;
-  left: -65vw;
-  top: 12.5vh;
-}
-.main .animation-container .voice {
-  position: absolute;
-  height: 36vh;
-  left: -43vw;
-  top: 39.5vh;
-}
-.main .animation-container .ear {
-  position: absolute;
-  height: 75.9vh;
-  right: -60vw;
-  top: 10.5vh;
-}
 .main .bttm-part {
   width: 86.6vw;
   display: flex;
