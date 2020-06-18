@@ -18,13 +18,10 @@ body {
   display: block;
   text-align: left;
   text-decoration: none;
-  font-size: 5.6vw;
+  font-size: 3.3vw;
   font-family: 'Geometria-Medium', sans-serif;
   color: #14FF00;
   margin-bottom: 2.2vw;
-}
-.main .cntr-part p:nth-of-type(3) {
-  margin-bottom: 0vw;
 }
 .main .bttm-part {
   width: 71.1vw;
@@ -33,30 +30,19 @@ body {
   right: 6.7vw;
 }
 .main .bttm-part div {
-  width: 71.1vw;
+  width: 71.9vw;
   height: 107.4vw;
   margin-bottom: 4.4vw;
+  position: absolute;
 }
-.main .bttm-part .first-item {
-  background: url('../img/items/1.png');
+.main .bttm-part .frst-page {
+  background: url('../img/page/catalogue.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
-.main .bttm-part .second-item {
-  background: url('../img/items/2.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.main .bttm-part .third-item {
-  background: url('../img/items/3.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.main .bttm-part .fourth-item {
-  background: url('../img/items/4.png');
+.main .bttm-part .scnd-page {
+  background: url('../img/page/catalogue2.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
