@@ -1,0 +1,9 @@
+@import "main.css";
+
+.main {
+  background: url('../img/space/space-1.jpg');
+  color: #14FF00;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
